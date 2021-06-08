@@ -1,0 +1,47 @@
+Planning to have 25 to 30 sessions:
+
+Core Java Introduction:
+    James gosling he is working in sun microsystems, he developed it and made it visible to community in 1991 version 1.0.
+	In 2007 time the java made opensource. We can go and view all the source code of a open source software.
+    The java was acquired by Oracle corporation.
+the current version of java is JDK16.
+
+Terminolgy:
+Java Virtual Machine: The shortcut JVM.
+   - Write a program - The program will be written by us.
+   - Compile a program - The program we written will be given to java compiler to compile it, once the compilation is done, it generates .class file.
+   - Run a program - If we run a program the JVM will take the bytecode or .class file and process it and generates output.
+
+bytecode: When we compile a program a class file will be generated and inside the class file we will have bytecode.
+
+JDK: Java development Kit.
+    There will JRE(Java runtime environment), java docs, Java debuggers, JVM.
+
+JRE: Java runtime environment:
+   - It will have all tools and softwares to run the program.
+   - We can run programs using JRE.
+   - JRE cant compile a program.
+
+
+Features of Java:
+-----------------
+Platform independent:
+-----------------------
+ Platform dependent:
+
+
+   runtime environment
+        |
+  OS(operating system)
+
+
+ Platform Independent:
+
+   runtime environment
+        |
+     JVM(Java software)
+        |
+  OS(operating system)
+
+
+MultiThreaded:
