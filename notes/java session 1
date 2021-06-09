@@ -25,17 +25,17 @@ JRE: Java runtime environment:
 
 Features of Java:
 -----------------
-Platform independent:
------------------------
- Platform dependent:
+     - Java is platform independent language.
 
+ Platform dependent:(EX: C, C++)
 
-   runtime environment
+   runtime environment()
         |
   OS(operating system)
 
+----------------------------------
 
- Platform Independent:
+ Platform Independent: (EX: Java)
 
    runtime environment
         |
@@ -45,3 +45,33 @@ Platform independent:
 
 
 MultiThreaded:
+   thread : a thread is a simple single process.
+   MultiThread - Starting multiple process at a time.
+   It improves the performance.
+
+Dual core - you can start two threads.
+Quad core - you can four threads at time.
+oct core - you can have 8 threads at a time.
+
+   - 1000/2 = 500
+   - 1000/4 = 250
+   - 1000/8 - 125
+
+Object oriented :
+   - the oops concepts tells how we design our programs.
+   Inheritence
+   Abstaraction
+   Encapsulation
+   polymorphysm.
+These things will be covered in further classes.
+
+Simple:
+   The memory allocation is done automatically by JVM,
+   We dont have features like pointers, operator overloading etc.
+
+Distributed:
+    By using remote method invocation and EJB you can create distributed apps in java.
+
+Robust:
+   Robust means reliable, It will check for errors as early as possible, i.e during compile time. The other things that makes java
+   robust is Garbage collection(GC), Exception Handling, Memory allocation.
