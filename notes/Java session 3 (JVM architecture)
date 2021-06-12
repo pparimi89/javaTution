@@ -1,0 +1,39 @@
+JVM(Java virtual machine) Architecture:
+   Write Program -> compile converts java program and generates byte code.
+
+   We give this byte code to JVM,
+      what JVM will do is ? it provides run time environment.
+   It allocates memory for the programs.
+
+  Class Loader -> bytecode verification -> memory allocation -> execution engine
+
+
+Class Loader:
+      Loading:
+        The byte code will be loaded,
+      Linking:
+        In the linking phase all the information needed regarding the classes needed to run will be collected.
+      Initialization:
+        All the variables will be initialzed with the default values here.(Variable is nothing but a container to hold data)
+
+Memory Area:
+   Method area:
+      All the class related structure information will go inside method area.
+   Heap:
+     All the objects will be stored in heap .
+   Stack area:
+     For every thread JVM creates one runtime stack. It is divided into stack frames.
+     Each stack frame will hold the information about intruction. The stack frame also hold information about local variables.
+     Once our thread(or java program) completes execution stack also will gets cleared off.
+   PC register:
+     It holder the address of current instruction that is running.
+   Native method stack:
+       it stores Native method information (native method are nothing bu programs that are java libraries)
+
+Execution Engine:
+   It excutes the byte code line by line taking information about the objects from the memory.It has three parts;
+   Interpreter: Iterpreter excutes the byte code line by line (it will generates native code and then executes the instruction).
+   JIT compiler(Just in time compiler): Here the generated native code will be reused for the further instructions. So it improves the
+   performance.
+   Garbage Collector: It clears the objects that is present in the memory once the exection completes.
+   This will be done automatically by GC.
