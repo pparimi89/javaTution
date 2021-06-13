@@ -80,8 +80,8 @@ Assignment:
    - Car class -  engine, color, speed, power these are properties, methods in it are doBreaking, doAccelarate.
    - Employee class
    - Student class
-   - Department class
    - MobilePhone class
+   - Box class
 Create object for the class and access methods and properties from it.
 
 
