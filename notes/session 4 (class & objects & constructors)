@@ -1,0 +1,87 @@
+Class:
+   -> It is a blueprint of an object.
+   -> it will have properties and behaviours.
+
+properties - these are nothing but variables.
+behaviours - these are nothing but methods.
+
+--------------------------------
+
+public class Book{
+
+  String author;
+  String description;
+  Integer price;
+  String manufacturingLocation;
+  Integer numberofChapters;
+
+  public void getReaderName(){
+    System.out.println("Phani");
+  }
+
+  public void keepItInShelf(){
+      System.out.println("I kept in shelf 10");
+  }
+
+  public static void main(String args[]){
+    System.out.println("**Hello World**");
+  }
+
+}
+
+------------------------------------
+Class Dog{
+
+  String colour;
+  String breed;
+  Integer height;
+  Integer weight;
+
+  public void bark(){
+    System.out.println("bark");
+  }
+
+  public void eat(){
+     System.out.println("bark");
+  }
+
+  public void sleep{
+     System.out.println("bark");
+  }
+
+  public void printHowManyTimesMyDogBarken() {
+          System.out.println("100");
+  }
+}
+
+---------------------------------------
+
+Object:
+-----------
+Object is instance of a class, (each object is created by taking the structure from the class)
+lets take a building, you create buiding from its plan, similarly you create object from class.
+
+Jumping into program:
+Object creation will have two steps:
+   Declaration:
+   Dog pet -  This is declaration;
+   Dog as type, and pet(variable name) as reference.
+
+   Initialization or Instantiation:
+  There is a key word "new", which is used to create object. it will allocate memory for your object.
+  new Dog();
+
+Dog pet = new Dog();  //This declaration creates object in memory
+
+--------------------------------------------------------
+
+
+Assignment:
+   - Car class -  engine, color, speed, power these are properties, methods in it are doBreaking, doAccelarate.
+   - Employee class
+   - Student class
+   - Department class
+   - MobilePhone class
+Create object for the class and access methods and properties from it.
+
+
