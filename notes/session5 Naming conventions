@@ -1,0 +1,67 @@
+Naming conventions
+----------------------
+There are three different things when you write class.
+  - Class
+  - method(functions/behaviours)
+  - variable(properties)
+
+Naming convention for class;
+   -> employee checker ->  EmployeeChecker
+   -> It should be noun.
+   The starting letter of word should be capital letter
+Naming convention for method:
+    -> it should be verb.(some work it does)
+    open mobile lock -> openMobileLock
+Naming convention for variables:
+   -> camel case format.
+   price - variables also kind of nouns.
+   name format - nameFormat
+
+--------------------------------------
+Methods/functions/behaviors
+  - Different parts of a function.
+we will have 6 parts in a function.
+public void printEnginehoorsePower(){
+}
+
+1. access specifier
+   - it can be public, private, protected, default
+   public - This will be accesed in the entire application.
+   private - The access will be only withing your class
+   protected - The access will be in same package and if you want access in other packages we have to use inheritence.
+   default: The access will be within same package.
+
+2. return type.
+     -> if we are returning any type then the return type also should be of same type.
+     -> If we are not returing any type, it should be void.
+     public Integer getNumberTen(){
+        return 10;
+     }
+
+     public String getNumberTenName(){
+        return "Ten";
+     }
+
+     //It dont have any outpout from this.
+    public void printEnginehoorsePower() throws Exception{
+    }
+
+3. Name of the function/method/behavior
+4. body of the method- {}
+5. Parameters - The parameters are nothing but inputs to the function.
+    public void printEnginehorsePower(Integer horsepower, String powerType, boolean isEngineWorking){
+        System.out.println(horsepower);
+    }
+6. Exeptions:
+     throws Exception - this part is place we declare exceptions.
+    public void printEnginehoorsePower() throws Exception, IoException{
+    }
+
+Assesment:
+1> Do the naming convention correctly
+
+2>
+    CalculatorAdd
+    CalculatorSubstract
+    CalculatorMultiplication
+    CalculatorDivision
