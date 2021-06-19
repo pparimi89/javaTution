@@ -1,0 +1,37 @@
+Constructors:
+    Car car = new Car();
+-- when we create a constructor instance variables will get initialized;
+- For your class memory will be created and the reference will be assigned to the class reference.
+
+Rules for wirting constructor:
+    public Caluculator(){
+     }
+  - Your class name and constructor name should be same.
+  - It wont have any return type.
+  - It can have access modifiers like public, private, protected, default.
+when a constructor is called ?
+-------------------------------
+      when ever we give the keyword "new" followed by constructor, our constructor will get invoked and object will get
+      created in the memory.
+
+Types of constructors:
+-----------------------
+   Default constructor:
+      Whenever we create a class, a default constructor will be created by compiler if we dont give any constructor
+      inside the class  -  Very very important statement.
+   No-arg constructor:
+       if we create constructor without arguments or parameter then it is No-arg constructor.
+   Parameterized constructor:
+       If we pass any parameters to a constructor, then it is parameterized constructor.
+
+   To invoke a current class constructor inside another constructor we have to use this operator.
+for EX: to invoke no arg constructor from a parameterized contructor then use "this()", it should be the first line of that constructor.
+
+
+-------------------------------------------
+1. create a class.
+2. create four instance variables.
+3. initilize those all instance variables, for three variables give some value, for 4th variable initilize that with the sum of
+the three varialbles.
+4. create 4 objects, and print values of those 4 instance variables default values.
+
