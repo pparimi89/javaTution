@@ -1,0 +1,77 @@
+Packages:
+   - It is mechanism to group a set of classes, interfaces and subpackages together.
+
+uses of packages:
+    CSE
+     Employee
+     Students
+     Department
+     Canteen
+    EEE
+     Employee
+     Students
+     Depatment
+     Canteen
+
+     -> Prevent naming conflicts
+     -> It makes names to have non redundant naming
+     -> It helps in searching/locating a class or interface easily.
+
+Naming Convention.
+    www.fitbit.com  -> activities
+    com.fitbit.activities.
+    Java packaging name follows reverse domain naming structure.
+
+    www.google.com -> gchat
+    com.google.gchat.
+
+    www.vitsolutions.com
+
+    com.vitsolutions.javatution.
+
+Writing a class inside a package:
+   Two parts -
+      1. Package keyword.
+      2. you have to mention folder structure seperated by dot untill your class path.
+      Lets take  you are creating a Employee class inside CSE package you have to mention like this.
+      package com.vitsolutions.javatutions.cse;
+
+Access classes inside a package.
+    For accessing a class that is in different package in the current package, we have to use below structire.
+    import com.vitsolutions.javatutions.examcell.ExamLocation;
+    It has two parts:
+      1. The first part is import keyword
+      2. complete path to the class.
+
+Types of packages:
+                                   Packages
+                                     |
+   UserDefined packages                                  Inbuilt packages
+
+inbuilt packages:
+     Java.lang - It will have basic clases related to Output printing, Data types, Math operation
+     java.io - Contains supporting classes for user input/outpout operations
+     java.util - This will have structures related to datastructs, lists, maps
+
+
+UserDefined packages:
+    We already discuused the userdefined packages above.
+
+Static imports:
+   if we have any static methods or variables inside a class then we can access them directly using
+   static import in another class of different package.
+This will three parts:
+    1. import
+    2. static keyword
+    3. complete path to the method name/complete path to the variable name
+ex: I want to access a static method printExamLocation inside ExamCell then we have to use like this.
+import static com.vitsolutions.javatutions.examcell.ExamLocation.printExamLocation;
+
+ex: I want to access a static variable examCellName inside ExamCell class then we have to use like this.
+import static com.vitsolutions.javatutions.examcell.ExamLocation.examCellName;
+
+
+Assignment
+   - see the recording last 10 mins.
+
+

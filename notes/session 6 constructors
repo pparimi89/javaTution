@@ -28,10 +28,10 @@ Types of constructors:
 for EX: to invoke no arg constructor from a parameterized contructor then use "this()", it should be the first line of that constructor.
 
 
+Assesment:
 -------------------------------------------
 1. create a class.
 2. create four instance variables.
 3. initilize those all instance variables, for three variables give some value, for 4th variable initilize that with the sum of
 the three varialbles.
 4. create 4 objects, and print values of those 4 instance variables default values.
-
