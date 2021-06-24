@@ -1,0 +1,38 @@
+Variable:
+     It will have three parts
+     dataType : This was mandatory part, in the below the keyword "int" is datatype
+     referenceName : This was the reference for the value that is stored in memory
+     initilization : this is not mandatory, here we assign value to the variable, what happens here the 10 value will be stored in memory and the
+     memory reference will be assigned to i.
+
+int i = 10;
+
+Types of variables:
+    1. Local Variables
+    2. instance variables
+    3. static variables
+
+Local variables:
+     - the variables that are present inside a method are called local variables.
+     - these variables are created when the method start executing and destroyed when the methods completes it execution.
+     - initialization is mandatory.
+
+Instance variables:
+      - The variables that are declared outside of method they are called instance variables.
+      - These are created when object of class is created and destroyed once object is destroyed.
+      - initialization is not mandatory, it can take default values.
+      - These are accessed by creating objects.
+
+static variables:
+     - These variables are called class level variables.
+     - These are declared similar to instance variable, but the difference is they are declared using "static" keyword.
+     - unlike instance variables we can have only one copy of this variable for class.
+     - These are created at start of program and destroyed when program get closed.
+     - Initialization is not mandatory, it can initialize to default values.
+
+Assignment:
+   - Write a program to count number of objects created for a class.
+
+   create a class Student.
+   Now if you create one object for this. I should get the value as 1.
+   if i create 10 objcts then i should know i created 10 objects.
