@@ -1,0 +1,37 @@
+Arithematic operators:
+    If we want to perform arithematic operations we use Arithematic operators
+    +, -, /, %, *.
+
+    % - THis will have value from remainder
+    / - This will have value from quotient.
+Ex: 70/20 - will give result as 3
+Ex: 70%20 - will give result as 10
+
+Unary Operator: These need only one operand.
+  + - indicates positive value
+  -  -this indicates negitive value
+  ++ - tHis increments a value by 1
+  -- - this decrements a value by 1
+Assignment operator:
+    variable = value;
+    int i = (10/5);
+
+    += -
+    -=
+    *=
+    /=
+    %=
+-----------------------------
+
+Assignment:
+    write a class and Perform +, -, * operations
+    Write a class a do increment and decrement operation
+    Write assignment operator for *=, /+, %=
+
+
+Relational OPerator
+Logical operator
+Ternary operator.
+
+
+

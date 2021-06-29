@@ -4,6 +4,8 @@ public class ExamLocation {
 
     public static String examCellName = "CommonExamCell";
 
+    protected String test = "CommonExamCell";
+
     public void printExamCenter(){
         System.out.println("Exam Center");
     }
