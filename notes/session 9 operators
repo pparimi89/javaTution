@@ -12,6 +12,7 @@ Unary Operator: These need only one operand.
   -  -this indicates negitive value
   ++ - tHis increments a value by 1
   -- - this decrements a value by 1
+
 Assignment operator:
     variable = value;
     int i = (10/5);
@@ -28,10 +29,34 @@ Assignment:
     Write a class a do increment and decrement operation
     Write assignment operator for *=, /+, %=
 
+Relational OPerator:
+   ==, <, >, <=, >=, != - All these will come under relational operator.
+   The result of relational operator is always boolean (i.e true or false)
 
-Relational OPerator
-Logical operator
+Logical operator:
+   -> We have two logical operators, they are logical AND( && ) and Logical OR ( || )
+    l1, l2, l3 -> serial
+
+          logical AND
+          true  true - true
+          true  false - false
+          false true  - false
+          false false - false
+
+          logical OR
+          true  true -  true
+          true  false - true
+          false true  - true
+          false false - false
+
 Ternary operator.
+      ?:
+     here based on the condition, we can goto corresponding action that should be executed .
+     the syntax will be as follow:
+       Condition ? action to be performed if true : action to be performed if false
 
-
+Assessment:
+   -> Write program with <, <= and >
+   -> Create own program using relational operator.
+   -> Create own program using Logical & Ternary operator.
 
