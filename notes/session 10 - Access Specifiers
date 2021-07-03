@@ -1,0 +1,22 @@
+Access Specifiers/ modifiers.
+
+- We have four different access specifiers:
+  public:
+    - We can specify public access for a class, a method, instance variable and constructor.
+    - If we keep public access specifier for a class, we can create object or access the class anywhere in the project.
+    - If we keep public access specifier for a method, we can access it anywhere in the project using the object.
+    - If we keep public access specifier for a variable, we can access it anywhere in the project using the object
+    - If we keep public access specifier for a constructor, we can create object for that class anywhere in the project
+  private:
+  protected:
+    inside the same package, and if we want to access out of package then we need to extend the class and then we can access the method.
+  default:
+
+
+Assessment
+  Public :
+      create two packages - pakage1, package2 .
+      -> inside package1 ->  Create a class Stadium, and inside it create public method, variable, class, constructor.
+      -> inside package2 ->  Create a class player, and inside it create instance for stadium and access its public method, variable, class, constructor.
+
+
