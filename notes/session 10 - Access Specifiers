@@ -5,11 +5,22 @@ Access Specifiers/ modifiers.
     - We can specify public access for a class, a method, instance variable and constructor.
     - If we keep public access specifier for a class, we can create object or access the class anywhere in the project.
     - If we keep public access specifier for a method, we can access it anywhere in the project using the object.
-    - If we keep public access specifier for a variable, we can access it anywhere in the project using the object
+    - If we keep public access specifier for a instance variable, we can access it anywhere in the project using the object
     - If we keep public access specifier for a constructor, we can create object for that class anywhere in the project
   private:
+    - We cant keep a class as private.
+    - If we keep private access specifier for method, we can access it inside the class alone, you cant access it out of class.
+    - If we keep private access specifier for a instance variable, we can access it inside the class alone, you cant access it outside.
+    - If we keep private access specifier for a constructor, we cannot create object for that class.
   protected:
     inside the same package, and if we want to access out of package then we need to extend the class and then we can access the method.
+    - We cant keep a class as protected.
+    - If we keep protected access specifier for method, we can access it inside the classes that are in same package, You can access it outside
+        of package by using extends keyword for the class.
+    - If we keep protected access specifier for a instance variable,  we can access it inside the classes that are in same package, You can access it outside
+        of package by using extends keyword for the class.
+    - If we keep protected access specifier for a constructor, we can create object for that class in the classes that are in same package.You can access it outside
+      of package by using extends keyword for the class.
   default:
 
 

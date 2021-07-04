@@ -4,18 +4,28 @@ public class ExamLocation {
 
     public static String examCellName = "CommonExamCell";
 
-    public ExamLocation(){
+    private String test1 = "We keep exams to the college";
 
+    public ExamLocation(){
     }
+
+    public ExamLocation(int i){
+        this();
+    }
+
     public String test = "CommonExamCell";
 
     public void printExamCenter(){
-        System.out.println("Exam Center");
+        printCellName();
+
     }
 
     public static void printExamLocation(){
         System.out.println("Exam Location");
     }
 
+    private void printCellName(){
+        System.out.println("My name is Exam Cell Center");
+    }
 
 }
