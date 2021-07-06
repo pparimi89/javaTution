@@ -14,9 +14,11 @@ public class Student {
         printExamLocation();
         System.out.println(examCellName);
 
+/*
         Department department = new Department();
         department.printDept();
         department.val;
+*/
 
     }
 }

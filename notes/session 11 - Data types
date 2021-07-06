@@ -1,0 +1,36 @@
+
+                                           Data Types
+                                               |
+                         -----------------------------------------------------------
+             Primitive                                                             Non-primitive
+               |                                                                       |
+       Boolean              numeric Type                                      String, Array, etc....
+                                  |
+         |           Character          Integral Value
+                        |
+       boolean       char                    |
+                                   Integer         floating
+                                     |                 |
+                       byte short  int long        float double
+
+
+Boolean:
+     it can have two values, true/false. the size of boolean depends on virtual machine.
+     the default value for boolean is 'false'.
+
+Byte:
+
+    Data Type        syntax                 size                       value                       default value
+    boolean       boolean booleanVar       Virtual Machine specific    true/false                   false
+     byte         byte byteVar              8 bits                      -2pow7 to 2pow7              0
+     short        short shortVar            16 bits                     -2pow15 to 2pow15            0
+     int          int intvar                32bits                      -2pow31 to 2pow31            0
+     long         long longVal              64bit                       -2pow63 to 2pow63            0
+
+Assessment:
+   -> Continue the data type program, with int and log datatypes.
+
+
+1024 bits - 1kb
+1024kb - 1 mb
+1024 mb - 1gb
