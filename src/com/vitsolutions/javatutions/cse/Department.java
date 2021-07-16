@@ -1,8 +1,13 @@
 package com.vitsolutions.javatutions.cse;
 
 import com.vitsolutions.javatutions.examcell.ExamLocation;
+
+import java.util.Scanner;
+
 public class Department{
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int scnInp = scanner.nextInt();
         ExamLocation examLocation = new ExamLocation();
         examLocation.printExamCenter();
         int i = 0;

@@ -1,0 +1,85 @@
+Control statements:
+    if we want to execute a piece of code based on some condition, we use control statements to handle them.
+
+-> conditional If statements
+-> conditional switch statement
+-> while and do while loops
+-> for loop
+-> continue statement
+-> break statement
+
+-> conditional If statements:
+
+ Simple If statement:
+       if(condition){
+         //statements that should be executed when the condition becomes true.
+       }
+ if else statement:
+        If the condition is true it will have a block of statements to execute, if false it will have another block of statements to
+        execute.
+      if(condition){
+         //statements that should be executed when the condition becomes true.
+      }else{
+           //statements that should be executed when the condition becomes false.
+      }
+
+if else ladder:
+    it will have multiple conditional statements, if a condition fails it will enter into else if, if all the if and else if
+    fails it will execte else block and exits.
+   -> Only one block of statements will be executed.
+    if(condition1){
+       //statements that should be executed when the condition1 becomes true.
+    }else if(condition2){
+           //statements that should be executed when the condition2 becomes true.
+    }else if(condition3){
+       //statements that should be executed when the condition3 becomes true.
+    }
+    .
+    .
+    .
+    else{
+       //statements that should be executed when all the above condition becomes false.
+    }
+
+-----------------------------
+
+Conditional switch statements:
+    Here you will have an expression, based on the value of expression the control will be given to different part of the code
+
+    switch(expression)
+    {
+      case val1:
+       //statements to execute
+       //break
+      case val2:
+       //statements to execute
+       //break
+      case val3:
+       //statements to execute
+       //break
+       .
+       .
+       .
+       .
+       default:
+         //statements
+    }
+
+------------------------------------------
+
+Assessment:
+   -> Find a even or odd number.
+   -> You have 1 to 10 number, I should know the number name.
+      input: 1
+      o/p: you have pressed number 1
+      input: 2
+      o/p: you have pressed number 2
+      .
+      .
+      input: 15
+      o/p: you have pressed number greater than 10
+    use else if ladder and switch statement
+
+
+
+
