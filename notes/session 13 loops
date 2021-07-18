@@ -1,0 +1,76 @@
+Loops:
+  You have a set of statements to be executed multiple times, then we go for loops.
+    The loop will continue its execution when the condition is true.
+    when condition is false the loop will be terminated.
+  -> while loops
+  -> For loops
+  -> do while loop.
+
+while loops
+   -> Entry control loop.
+   -> If the condition is met then only the control will enters into loop
+     Syntax:
+         while(condition){
+           //statements
+           //increment/decrement
+         }
+
+For Loop:
+    -> The initialization, condition and increment/decrement will be there in single place.
+
+    Syntax:
+       for(initilaization; test condition; increment/decrement){
+         //set of statements
+       }
+
+
+do-while loop:
+   -> This is similar to while loop, the only difference is, it executes the set of statements one time and then it go and
+   checks for condition;
+   -> Exit control loop.
+   Syntax:
+       do{
+         // set of statements
+       }while(condition);
+
+break:
+   if we want to jump out of loop without completing the iteration, then break is used.
+
+continue:
+   If we want to skip an iteration and then continue the execution then we go for "continue"
+
+
+---------------------
+Assessment: 1
+input: 1 10
+   -> print even number in the given range
+   -> print odd number  in the given range
+Assessment: 2
+input: 9 20
+   -> multiplcation table
+   5 * 1 = 5
+   5 * 2 = 10
+   .
+   .
+   5* 10 = 50
+   .
+   .
+   5 * 20 = 100
+
+   For loop, while loop, do while loop.
+
+--------
+Assessment: 3 - breakdemo
+     input: 1 10
+        -> print even number in the given range
+        -> print odd number  in the given range
+     break the loop at middle
+
+Assessment: 4 - Continue Demo
+ input: 1 10
+        -> print even number in the given range
+        -> print odd number  in the given range
+         Skip the loop at middle;
+
+
+
