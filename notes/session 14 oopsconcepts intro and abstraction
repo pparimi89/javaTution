@@ -1,0 +1,82 @@
+Oops Concepts:
+   - Oops concepts drive us to write programs in an object oriented way.
+
+-> Class
+-> Object
+-> Abstraction
+-> Encapsulation
+-> Inheritance
+-> Polymorphism
+   These oops concepts will help us to write programs in an efficient way and in an object oriented way.
+
+Abstraction:
+   -> Hiding complicated implementation details of a program, exposing only the API that is required to use the implementation.
+   -> Abstraction is hiding complexities of implementation and exposing simpler interfaces.
+   -> We can achieve abstraction using abstract classes and interfaces.
+
+    abstract class:
+      -> we use abstract keyword to make a class as abstract.
+      -> An abstract class contains variables, methods and abstract methods.
+          Abstract Methods:
+                -> it dont have method body, it will have only signature.
+                sytax:
+                   normal method:
+                   -------------------
+                         void drive(){
+                            System.out.print("Driving a class");//some implementation
+                         }
+                   abstract method:
+                   -----------------------
+                   abstract void drive(); //abstract method will have only signature
+
+      -> If you have a abstract method inside your class you need to mandatorily mark your class as abstract.
+
+  Interface:
+    -> We can achieve abstraction using interface too,
+    -> In interface we will have all the methods as abstract methods. it has 100% abstract methods.
+    -> We use keyword interface to define an interface.
+       syntax:
+            interface InterfaceName{
+               //abstract methods
+               // static variables
+            }
+     -> We cannot instantiate interface.
+
+     interface Car{
+        void drive();
+        int maxSpeed = 100;
+     }
+     when the interface compiles, internally the interface will be like this
+     interface Car{
+        public abstract void drive();
+        public static final int maxSpeed = 100;
+     }
+
+    -> We relate a class and an interface using implements keyword.
+
+Abstract Vs interface.
+   -> In abstract class you have normal methods and abstract methods.
+   -> in interface you will have only abstract methods(100% abstract methods)
+
+   -> Abstract class are marked as abstract keyword
+   -> interface are marked as interface keyword
+
+   -> we use extends for abstract class to connect other class
+   -> we use implements for interface to connect to other class.
+
+
+----------------
+  Assignment Create interface for your multiplication program to hide the logic of it by exposing an interface. See car class
+  for reference.
+
+
+
+
+
+
+
+
+
+
+
+
