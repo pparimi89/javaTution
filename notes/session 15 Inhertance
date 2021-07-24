@@ -1,0 +1,82 @@
+Inheritance:
+   - Here one class is allowed to inherit the properties(variables) and behaviours(methods) of another class
+   - The main advantage of inheritance is reusability, we can reuse the fields and methods of parent class in child class
+
+
+Terminology:
+    Super/parent class: The class whose features are inherited
+    Sub/child class: the class that inherit other class is known as subclass.
+The subclass can add its ownfields and methods, in addition a subclass can override behaviour of super class.
+
+We connect classes that are involved in inheritance relation using "extends" keyword.
+
+EX:  father
+  100kg gold
+  100kg silver
+
+  snores{
+    I will snore
+  }
+  worksSmart
+  thinkFast
+
+  son extends father{
+  100 diamonds;
+  snores{
+      I will not snore
+    }
+  runFast()
+  swim()
+  jump()
+  }
+
+Types of inheritance:
+  -> Single Inheritance:
+     The subclass will inherit features of one superclass.
+         class A
+           |
+           |
+         class B
+
+  -> multilevel Inhertiance
+       class A
+         |
+         |
+     class B extends class A
+         |
+         |
+     class C extends class B
+        |
+        |
+     class D extends class C
+
+  -> heirarchal inheritance: Here one class will serves as parent for multipile child classes.
+             Father
+               |
+     --------------------------
+     |       |          |
+    Son1    Son2      Son3  ... Etc
+
+  -> Multiple Inheritance:
+       Multiple inheritance is not supported in java with concrete class, but we can do it using interfaces. The reason is ambiguity.
+       With concrete class we have implementations, compiler dont know which implementation to be taken to child.
+       with interfaces since there was no implementation compiler will be able to do multiple inheritance.
+       class Father1       class Father2
+            void think(){}       void think() {}
+               |                   |
+            -----------------------
+                       |
+                      Son
+
+  -> Hybrid Inheritance:
+      - It is a combination of two or more types of above inhertance types, hybrid ]inhertance also java not support.
+                class A
+                  |
+      ------------------------------
+      |                            |
+    class B                     class C
+      |                           |
+     ------------------------------
+               |
+             class D
+
