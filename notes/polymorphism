@@ -1,0 +1,26 @@
+Polymorphism:
+    -> The word polymorphism refers to poly means many morphism means forms.
+    -> polymorphism allows us to perform single action in different ways.
+In Java we will have two types of polymorphism.
+     -> Compile time polymorphism
+     -> Runtime polymorphism
+
+    CompileTime polymorphism:
+         -> It is also called static polymorphism
+         -> You can achieve compile time polymorphism using method overloading.
+
+            Method Overloading:
+                     -> When there are multiple methods with same name but with different parameters, then these functions are overloaded.
+                    it can be done in two different ways of having method parameters.
+                      - Different types of arguments
+                      - Different number of arguments.
+
+
+    Runtime Polymorphism:
+        -> It is also known as Dynamic method dispatch
+        -> A function call to overriden method is resolved at runtime.
+       This is achieved by using method overriding.
+
+   Method Overriding.
+      -> when a child class has a definition for one of the functions of the parent class. Then the function
+      that is in child class is said to be overriden.
