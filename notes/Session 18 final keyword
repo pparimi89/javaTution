@@ -1,0 +1,19 @@
+final Keyword:
+        -> final keyword is applicable on variable, method, class.
+    Variable:
+          -> to create constant variables we used final
+          -> once you initialize a variable which has final keyword we cannot modify it.
+
+        Initializing a variable:
+            -> one is normal way, we create variable and assign value to it.
+            -> we create a final variable and initialize it in "instance initializer block"(constructor).
+            -> it can be initialized inside a static block.
+
+    Method:
+        -> final keyword can be used with method.
+        -> if we want to stop the overriding of method that is declared in parent class inside child class then we use
+        final keyword for that method.
+    Class:
+       -> Final keyword can be used with class.
+       -> When a final keyword is used with class, we cannot use the class as parent class in any other child classes i.e final with class stops inheritance.
+
