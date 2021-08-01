@@ -1,0 +1,11 @@
+Encapsulation:
+  ->  It is mechanism that binds code and data it manipulates into a single unit.
+  -> The variable or data of class is hidden from other class (the data is hidden by giving private access to variables) and can be
+  accessed only through member functions(nothing but functions)
+
+Advatages of encapsulation:
+    Data Hiding: The variables are hidden from other class, and can be access using memeber functions. You will control over the data.
+    (you can provide read/write access based on need for the variables)
+    Increased Flexibility:
+       if you want some varaiables to have only read then you give getter alone, if you want some varaiables to have only write
+       then you give setters alone, if you need both read write, we give getters/setter.
