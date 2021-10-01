@@ -1,0 +1,31 @@
+Exception Handling:
+ Statement from Group:
+      1. provide custom message if application or program breaks.
+
+Use case: Online shopping site with proper exception handling will avoid loss to both customer as well as firm.
+
+Exception: Unexpected termination of program giving undesired results.
+
+Exception Heirarchy:
+                Throwable(its a class)
+                   |
+           |-------------------|
+ Checked Exception           Unchecked Exceptions
+                               |
+                              Errors
+
+Checked Exceptions:
+     1. This exceptions will extends Exception class.
+     2. During Compile time of program, the compiler will say you have to handle the exception.
+     Ex: ClassNotFoundException, IOException, FileNotFoundException.
+
+Uncehcked Exceptions:
+    1. This exceptions will extends RuntimeException class.
+    2. During the program runtime, we will get unchecked exceptions.
+    EX: NullpointerException, IllegalArgumentException, NumberFormatException, ArrayIndexOutOfBoundsException
+
+
+Errors:
+  Errors represent serious and irrecoverable conditions like inifinite recursions , memory leaks.
+EX: StackOverflowError, OutOfMemoryError.
+
