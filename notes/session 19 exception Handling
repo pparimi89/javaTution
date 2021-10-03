@@ -10,9 +10,10 @@ Exception Heirarchy:
                 Throwable(its a class)
                    |
            |-------------------|
- Checked Exception           Unchecked Exceptions
-                               |
-                              Errors
+ Checked Exception           Errors
+           |
+   Unchecked Exceptions                            |
+
 
 Checked Exceptions:
      1. This exceptions will extends Exception class.
@@ -29,3 +30,43 @@ Errors:
   Errors represent serious and irrecoverable conditions like inifinite recursions , memory leaks.
 EX: StackOverflowError, OutOfMemoryError.
 
+StackOverflowError:
+     If your stack size keep on increasing and never terminated then we will see stackoverflow error.
+
+outOfMemoryError:
+   If the JVM heapsize keeps on growing by allocation memory to the variables then after reaching particular threshold value,
+   the JVM cant allocate memory further resulting in OutOfMemoryError
+
+The different ways of handling exception
+1. try/Catch block
+     lets take we have a piece of code where we get some checked/unchecked exception, if we want to handle them we use this try catch block.
+     Syntax:
+      try{
+         //Code which causes the checked/uncheked exception
+      }catch(Exceptionclass exceptionClassReference){
+           //Code that needs to execute for the exception you have catched.
+      }
+
+2. Throws
+   This is the simplest way to handle your exception.
+   If we want to propogate the exception from the actual implementation method, then we use throws.
+
+   Syntax:
+      public void test() throws ExceptionClassName{
+        // You have piece of code that throws ExceptionClassName exception.
+      }
+  -> You can propogate or we can throw only checked Exceptions.
+
+3. throw:
+
+
+4. finally
+
+
+
+
+
+
+Assesment:
+IllegalArgumentException, NumberFormatException, - Write programs to get this exceptions.
+IOException - Write program to get this exception
