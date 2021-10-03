@@ -1,37 +1,22 @@
 package com.vitsolutions.javatutions.exceptionhandling;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 public class ThrowDemo {
 
-    public void readFile(String filePath) throws FileNotFoundException{
-        File file = new File(filePath);
-        FileInputStream inputStream = new FileInputStream(file);
+    public static void main(String[] args) throws IOException {
+        //Read input from Console.
+        System.out.println("Enter Input value");
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        Integer number = Integer.parseInt(br.readLine());
+        if(number <= 0){
+            throw new IllegalArgumentException("Input Cannot be zero");
+        }
+        int result = 100/number;
+        System.out.println("Output Value is ::: "+ result);
+
     }
 
-    public static void main(String[] args) {
-        ThrowDemo t1 = new ThrowDemo();
-        try {
-            t1.readFile("c:/data/test.txt");
-        } catch (FileNotFoundException e) {
-            System.out.println("// hey guys please upload the file correctly");
-        }
-
-        ThrowDemo t2 = new ThrowDemo();
-        try {
-            t2.readFile("c:/data/check.txt");
-        } catch (FileNotFoundException e) {
-            System.out.println("// Give the file name correctly, file not found");
-        }
-
-        ThrowDemo t3 = new ThrowDemo();
-        try {
-            t3.readFile("c:/data/Heck.txt");
-        } catch (FileNotFoundException e) {
-            System.out.println("// File not found");
-        }
-
-    }
 }

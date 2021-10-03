@@ -58,14 +58,31 @@ The different ways of handling exception
   -> You can propogate or we can throw only checked Exceptions.
 
 3. throw:
+in order to throw an exception by our own, we use throw. (or) if we want to throw an exception explicitly inside a function,
+we use throw.
 
+Syntax: throw new ExceptionClass()
+   Here the exceptionClass will be eith checked or unchecked exceptions class types.
+   If we throw an exception the steps proceeding it wont get executed.
+  Ex: see ThrowDemo program.
 
 4. finally
+ If we have a piece of code that needs to run regardless of an exception, then we use finally block.
 
-
-
-
-
+Syntax:
+   We should need a try block and then we have to use finally.
+   try{
+   }
+   finally{
+   //Your sequence of steps that needs to be executed mandatorily will be written here.
+   }
+   ------------
+  try{
+  }
+  catch(){
+  }
+  finally{
+  }
 
 Assesment:
 IllegalArgumentException, NumberFormatException, - Write programs to get this exceptions.

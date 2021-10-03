@@ -1,0 +1,40 @@
+Arrays:
+-------------
+-> An com.vitsolutions.javatutions.array is group of like typed variables that are referred by a common name.
+    Like typed means, if we have com.vitsolutions.javatutions.array of string, then com.vitsolutions.javatutions.array will hold only a group of string values.
+      if we have com.vitsolutions.javatutions.array of integer, then com.vitsolutions.javatutions.array will hold only a group of integer values.
+-> the Array will begin from index 0.
+
+    ----------------
+  Values | 10 20 30 40 50 |
+   ------------------
+  indexes | 0| 1| 2| 3| 4|
+
+  Syntax:
+    type var-name[]
+    Here type referes a data type(short, int, double, long, char, String... ) and also it can be object also
+    var-name refers the name of com.vitsolutions.javatutions.array variable.
+
+    int number[];
+    double dobArr[];
+    char chArr[];
+    boolean boolArr[];
+    .....
+
+  Initializing an com.vitsolutions.javatutions.array variable:
+    In order to allocate memory for the com.vitsolutions.javatutions.array, we have to initialize an com.vitsolutions.javatutions.array.
+     var-name = new type[size];
+
+     initializing the above integer com.vitsolutions.javatutions.array variable.
+     number = new int[100]; - The size here should be integer.
+     boolArr = new boolean[100]; - The size here should be integer.
+     The elements in the com.vitsolutions.javatutions.array will automatically initilized to 0 for integer types, the boolean com.vitsolutions.javatutions.array will be initialized to false.
+
+ Accessing a com.vitsolutions.javatutions.array variable:
+     number[10]; // this will return me the element that is present at 10th position.
+     number[90]; // this will return me the element that is present at 90th position.
+     number[110]; // we will get exception.(ArrayIndexOutofboundException)
+
+
+
+

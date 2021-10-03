@@ -3,6 +3,7 @@ package com.vitsolutions.javatutions.exceptionhandling;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 
 class UnchecedExceptionDemo{
     public void uncheckedException(){
@@ -25,13 +26,13 @@ class UnchecedExceptionDemo{
 
 public class ExceptionHandlingDemo {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
        //Checked Exception handling scenario
         /**
          * Here the fileinputstream constructor throws FileNotFoundException
          */
          File file = new File("c:/data/git");
-       // FileInputStream fileInputStream = new FileInputStream(file);
-        //fileInputStream.close();
+        FileInputStream fileInputStream = new FileInputStream(file);
+        fileInputStream.close();
     }
 }
